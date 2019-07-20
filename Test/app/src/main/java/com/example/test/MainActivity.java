@@ -25,18 +25,23 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_name_entry);
         mNameText = (EditText)findViewById(R.id.name);
+
         Button theClickedButton = (Button) findViewById(R.id.press);
-        Button theNotClickedButton = (Button) findViewById(R.id.notpress);
         theClickedButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 handleButtonClick();
             }
         });
+
+        Button theNotClickedButton = (Button) findViewById(R.id.notpress);
         theNotClickedButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 handleButtonNotClick();
             }
         });
+
+
+
 
 //        Toolbar toolbar = findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
