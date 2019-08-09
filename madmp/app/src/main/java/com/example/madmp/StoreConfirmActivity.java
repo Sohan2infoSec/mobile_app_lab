@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class DetailPageDisplay extends Activity {
+public class StoreConfirmActivity extends Activity {
     private TextView username_view;
     private TextView placename_view;
     private TextView foodtype_view;
@@ -12,7 +12,7 @@ public class DetailPageDisplay extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.detail_display);
+        setContentView(R.layout.store_confirmation);
 
         username_view = (TextView)findViewById(R.id.show_username);
         placename_view = (TextView)findViewById(R.id.show_placename);

@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">madmp</string>
-    <string name="placename">Your visited place:</string>
-    <string name="username">Username:</string>
+    <string name="placename">Your place:</string>
+    <string name="username">Your username:</string>
 
     <!--Spinner foodtype-->
     <string name="foodtype_prompt">Type of establishment</string>
+    <string name="bread_checkbox">Saigon Bread</string>
+    <string name="pho_checkbox">Pho</string>
+    <string name="soup_checkbox">Soup</string>
+    <string name="location">Your store location:</string>
     <string-array name="foodtype_arrays">
         <item>Coffee</item>
         <item>Restaurant</item>

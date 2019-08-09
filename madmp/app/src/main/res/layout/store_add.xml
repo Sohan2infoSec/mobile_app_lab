@@ -7,8 +7,7 @@
         android:layout_height="wrap_content"
         android:text="@string/username"
         />
-
-    <EditText android:id="@+id/username"
+    <EditText android:id="@+id/username_edit"
         android:inputType="textNoSuggestions"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -18,8 +17,7 @@
         android:layout_height="wrap_content"
         android:text="@string/placename"
         />
-
-    <EditText android:id="@+id/placename"
+    <EditText android:id="@+id/placename_edit"
         android:inputType="textNoSuggestions"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -33,10 +31,34 @@
         android:prompt="@string/foodtype_prompt"
         />
 
+    <CheckBox android:id="@+id/bread_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bread_checkbox"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/pho_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pho_checkbox"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/soup_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soup_checkbox"
+        android:onClick="onCheckboxClicked"/>
 
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        />
+    <EditText android:id="@+id/location_edit"
+        android:inputType="textNoSuggestions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
 
     <Button
-        android:id="@+id/detail_submit"
+        android:id="@+id/store_submit_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit" />
